@@ -1,0 +1,30 @@
+name: discord_bot_account
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #TODO: CHANGE TO LOCAL
+  nyxx: ^0.30.0
+  provider: ^4.1.1
+  shared_preferences: ^0.5.7+2
+  intl: ^0.16.1
+  http: ^0.12.0+4
+  image: ^2.1.12
+  urban_api: ^1.0.2
+  profanity_filter: ^1.0.2
+  process_run: ^0.10.9
+  html: ^0.13.3+3
+  flutter_circle_color_picker: ^0.1.1
+
+flutter:
+
+  uses-material-design: true
